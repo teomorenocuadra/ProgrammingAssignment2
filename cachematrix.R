@@ -1,7 +1,15 @@
 ## Below are two functions that are used to create a
 ## special "matrix" object that can cache its inverse.
 
-## Write a short comment describing this function
+## The first function takes an invertible matrix and
+## creates a list containing functions that:
+## 1. set the matrix
+## 2. get the matrix
+## 3. set the inverse of the matrix
+## 4. get the inverse of the matrix
+## The list is the input to the second function.
+## '<<-' is used to assign a value to an object in an
+## environment different from the current one.
 
 makeCacheMatrix <- function(x = matrix()) {
 
