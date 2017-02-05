@@ -46,3 +46,11 @@ cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
         i
 }    
+
+                
+## Testing the functions
+
+my_matrix <- matrix(1:4, 2, 2)
+my_list <- makeCacheMatrix(my_matrix)
+cacheSolve(my_list)
+                
