@@ -1,3 +1,5 @@
+# Caching the Inverse of a Matrix
+
 ## Below are two functions that are used to create a
 ## special "matrix" object that can cache its inverse.
 
